@@ -20,6 +20,11 @@ Algoritmo minicalculadora
 		 si ( opcion == 3) Entonces
 			 num_res <- num_a * num_b;
 			 Escribir "La multiplicación de los dos números es: ", num_res;
+		 SiNo
+			 si ( opcion == 4) Entonces
+				 num_res <- num_a / num_b;
+				 Escribir "La división de los dos números es: ", num_res;
+			 FinSi
 		 FinSi
          Escribir "Esa operación no esta permitida";
      finsi
