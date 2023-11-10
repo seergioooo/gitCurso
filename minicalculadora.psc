@@ -16,7 +16,11 @@ Algoritmo minicalculadora
       si (opcion = 2) entonces
          num_res <- num_a - num_b;
          Escribir "La resta de ", num_a," y de ", num_b," es de ",num_res;
-      sino
+	 sino
+		 si ( opcion == 3) Entonces
+			 num_res <- num_a * num_b;
+			 Escribir "La multiplicación de los dos números es: ", num_res;
+		 FinSi
          Escribir "Esa operación no esta permitida";
      finsi
  finsi
